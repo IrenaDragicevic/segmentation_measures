@@ -2,7 +2,7 @@
 """
 Created on Sat Jan 15 21:15:59 2022
 
-@author: Irenko
+@author: Irena Dragicevic
 """
 #ispis log-a
 import numpy as np
