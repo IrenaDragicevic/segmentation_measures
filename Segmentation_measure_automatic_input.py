@@ -15,7 +15,7 @@ print(data)
 #želiš da ti prikaže samo broj, ne i naslov  
 # initializing string   
 data_list=list(data)
-#print(data_list)
+print(data_list)
 
 #ako je jedan simbol E zamijeni ga s *10**
 #prvo moraš deklarirati novi string izvan for petlje jer su vrijednosti unutra privremene
