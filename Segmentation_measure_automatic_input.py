@@ -15,7 +15,7 @@ print(data)
 #želiš da ti prikaže samo broj, ne i naslov  
 # initializing string   
 data_list=list(data)
-print(data_list)
+#print(data_list)
 
 #ako je jedan simbol E zamijeni ga s *10**
 #prvo moraš deklarirati novi string izvan for petlje jer su vrijednosti unutra privremene
@@ -39,14 +39,14 @@ new_number_list = []
 for value in data_list:
     for symbol in value:
         if symbol.isdigit() or symbol == "." or symbol == "E":
-            print(symbol)
+            #print(symbol)
             new_number = new_number + symbol
     
     new_number_list.append(new_number)
     new_number= ""
     
-for number in new_number_list:
-    print(float(number))
+#for number in new_number_list:
+    #print(float(number))
     
 num1=float(new_number_list[0])
 num2=float(new_number_list[1])
@@ -65,7 +65,7 @@ num11=(2*num4)/(num2+num3)
 print("True positive area", num4)
 print("True negative area: ", num6)
 print("False positive area:", num7)
-print("False negative area: ", num7)
+print("False negative area: ", num8)
 
 #Sensitivity=true positives/(true positives+false negatives)
 #Specificity=true negatives/(true negatives+false positives)
