@@ -19,7 +19,7 @@ num11=(2*num4)/(num2+num3)
 print("True positive area", num4)
 print("True negative area: ", num6)
 print("False positive area:", num7)
-print("False negative area: ", num7)
+print("False negative area: ", num8)
 
 """
 Sensitivity=true positives/(true positives+false negatives)
