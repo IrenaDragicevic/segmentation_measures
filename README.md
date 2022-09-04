@@ -1,6 +1,3 @@
-# segmentation_measures
-Segmentation measures: sensitivity, specificity, Sorensen-Dice coefficient, Haussdorf distance.
-
 The goal of the histogram_segmentation_v6 program is to use and quantify a thresholding 
 method on a set of BraTS 2020 images. The images were converted to jpg using Fiji,
 meaning that each stack (coming from a single patient) was converted to 155 individual
